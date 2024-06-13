@@ -1,0 +1,23 @@
+/* * {
+  background-color: lightgray;
+
+  font-size: 40px;
+} */
+
+/* .newstyle {
+  color: red;
+  font-size: 30px;
+  background-color: lightblue;
+}
+
+h1#h {
+  color: blue;
+  font-size: 50px;
+} */
+
+h1,
+h2,
+p,
+a {
+  background-color: red;
+}

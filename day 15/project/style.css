@@ -1,0 +1,46 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 320px;
+  height: 320px;
+  background-color: #fff;
+  margin: auto;
+  padding: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 8px gray;
+}
+
+.logo {
+  display: block;
+  width: 110px;
+  border: 2px dotted gray;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.title {
+  width: 115px;
+  margin: 12px auto;
+  font-size: 20px;
+  border-bottom: 3px solid gray;
+}
+
+.desc {
+  text-align: center;
+}
+
+.social {
+  height: 55px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.social img {
+  width: 38px;
+  border-radius: 50%;
+  margin: 8px;
+  border: 2px solid gray;
+}

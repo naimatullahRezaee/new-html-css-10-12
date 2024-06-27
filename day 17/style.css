@@ -1,0 +1,45 @@
+/* @font-face {
+  font-family: "lalezar";
+  src: url("fonts/lalezar.ttf") format("truetype"),
+    url("fonts/lalezar.woff") format("woff");
+} */
+
+@font-face {
+  font-family: "newfont";
+  src: url("fontawesome-free-6.5.2-web/webfont/fa-brands-400.ttf")
+    format("truetype");
+}
+
+body {
+  font-family: "newfont";
+}
+
+h1 {
+  color: blue;
+  /* text-decoration: underline; */
+  /* text-transform:capitalize; */
+  /* text-align: left; */
+}
+
+/* p {
+  border: 3px solid black; */
+/* color: rgb(11, 35, 35); */
+/* font-size: 1em;
+  padding: 5px; */
+/* text-indent: 3rem; */
+/* letter-spacing: 14px; */
+/* word-spacing: 20px; */
+/* line-height: 1; */
+/* white-space: nowrap; */
+/* font-weight: 900; */
+/* text-align: justify; */
+/* text-align: justify; */
+/* } */
+
+a {
+  text-decoration: none;
+}
+
+/* p {
+  font-family: "century";
+} */

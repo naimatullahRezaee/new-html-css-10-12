@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "Myfont";
+  src: url("fonts/font1.ttf");
+}
+
+body {
+  direction: rtl;
+  background: #0055ffc4;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  font-family: Myfont, Arial, Helvetica, sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 70px;
+  width: 5%;
+}
+
+header input {
+  box-sizing: border-box;
+  background-color: aliceblue;
+  font-size: 20px;
+  padding-right: 20px;
+  width: 90%;
+  border: solid black 2px;
+  border-radius: 20px;
+  height: 40px;
+}
+
+header a {
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 30px;
+  background-color: #3f52e2;
+}
+
+header a:hover {
+  background-color: #586af5;
+}
+
+.box1 {
+  position: relative;
+  width: 40%;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.box1 i {
+  position: absolute;
+  left: 12%;
+  top: 35%;
+}
+
+nav {
+  position: sticky;
+  top: 70px;
+  width: 100%;
+  height: 50px;
+}
+
+ul {
+  position: absolute;
+  width: 100%;
+  margin: 0 0;
+  padding-right: 0;
+  background-color: rgba(0, 0, 0, 0.537);
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+ul li:hover {
+  background-color: rgba(0, 0, 0, 0.44);
+}
+
+section {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4%;
+  width: 70%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 30px;
+  background-color: #3f52e2;
+}
+
+section a:hover {
+  background-color: #586af5;
+}
+
+.box2 {
+  background-image: url(pic1.jfif);
+  background-repeat: no-repeat;
+  background-color: #ffffff6c;
+  background-size: 100% 100%;
+  margin: 2%;
+  width: 350px;
+  height: 350px;
+  color: rgb(73, 194, 40);
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px 1px black;
+  text-align: center;
+}
+
+.box2:hover {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  box-shadow: -10px -10px 20px 5px black;
+  font-size: larger;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box3 {
+  background-image: url(pic2.jfif);
+  background-repeat: no-repeat;
+  background-color: #ffffff6c;
+  backface-visibility: 2;
+  background-size: 100% 100%;
+  margin: 2%;
+  width: 350px;
+  height: 350px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px 1px black;
+  text-align: center;
+}
+
+.box3:hover {
+  width: 500px;
+  height: 500px;
+  box-shadow: -10px -10px 20px 5px black;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box4 {
+  background-image: url(pic4.jfif);
+  background-repeat: no-repeat;
+  background-color: #ffffff6c;
+  backface-visibility: 2;
+  background-size: 100% 100%;
+  margin: 2%;
+  width: 350px;
+  height: 350px;
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px 1px black;
+  text-align: center;
+}
+
+.box4:hover {
+  width: 500px;
+  height: 500px;
+  box-shadow: -10px -10px 20px 5px black;
+  font-size: larger;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box5 {
+  background-image: url(pic5.jfif);
+  background-repeat: no-repeat;
+  background-color: #ffffff6c;
+  backface-visibility: 2;
+  background-size: 100% 100%;
+  margin: 2%;
+  width: 350px;
+  height: 350px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px 1px black;
+  text-align: center;
+}
+
+.box5:hover {
+  width: 500px;
+  height: 500px;
+  box-shadow: -10px -10px 20px 5px black;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box6 {
+  background-image: url(pic3.jfif);
+  background-repeat: no-repeat;
+  background-color: #ffffff6c;
+  backface-visibility: 2;
+  background-size: 100% 100%;
+  margin: 2%;
+  width: 350px;
+  height: 350px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px 1px black;
+  text-align: center;
+}
+
+.box6:hover {
+  width: 500px;
+  height: 500px;
+  box-shadow: -10px -10px 20px 5px black;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

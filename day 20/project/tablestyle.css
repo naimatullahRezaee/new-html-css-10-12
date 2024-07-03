@@ -1,0 +1,30 @@
+th,
+td {
+  border-bottom: 2px solid #eee;
+  /* border: 1px solid #ccc; */
+  padding: 7px 10px;
+  /* vertical-align: middle; */
+}
+
+td {
+  height: 50px;
+  vertical-align: bottom;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgb(69, 221, 235);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(236, 233, 233);
+}
+
+tr:hover {
+  background-color: #ddd;
+}

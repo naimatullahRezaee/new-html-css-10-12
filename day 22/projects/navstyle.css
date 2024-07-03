@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "myfont";
+  src: url("fonts/font1.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "myfont";
+}
+
+nav {
+  background-color: darkslategray;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.container ul {
+  list-style-type: none;
+}
+
+.container ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 35px;
+  font-size: 20px;
+}
+
+.container ul li a:hover {
+  background-color: rgb(56, 162, 162);
+  color: black;
+  box-shadow: 0 0 10px rgb(139, 132, 132);
+}
+
+.btn a {
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.btn .btn1 button {
+  width: 70px;
+  height: 28px;
+  background-color: darkslategray;
+  border: none;
+  box-shadow: 0 0 10px lightgray;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn .btn1 button:hover {
+  background-color: rgb(56, 162, 162);
+  color: black;
+  box-shadow: 0 0 10px rgb(139, 132, 132);
+}

@@ -1,0 +1,24 @@
+.container {
+  border: 4px dotted red;
+  width: 500px;
+  height: 500px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow: column wrap-reverse; */
+  /* flex-direction: column; */
+
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  /* align-items: center;
+  /* justify-content: center; */
+  align-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: rgb(141, 228, 11);
+  margin: 5px;
+}

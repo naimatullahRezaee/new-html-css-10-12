@@ -1,0 +1,29 @@
+.container {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+/* .item {
+  background-color: darkslategray;
+  padding: 2rem;
+  border: 1px solid white;
+} */
+
+.header {
+  background-color: blueviolet;
+  padding: 2rem;
+}
+
+.content {
+  background-color: burlywood;
+  padding: 2rem;
+}
+.aside {
+  background-color: rgb(67, 30, 152);
+  padding: 2rem;
+}
+.footer {
+  background-color: chocolate;
+  padding: 2rem;
+}

@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.container1 {
+  height: 120px;
+  border: 1px solid gray;
+  display: flex;
+}
+
+.container1 .item {
+  background-color: purple;
+  margin: 5px;
+}
+
+.container2 {
+  height: 300px;
+  border: 1px solid gray;
+  display: flex;
+}
+
+.container2 .item {
+  width: 50%;
+  background-color: orange;
+  margin: 5px;
+}
+
+.container2 .parant {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 .parant div {
+  height: 50%;
+  background-color: blue;
+  margin: 5px;
+}
+
+.container3 {
+  height: 120px;
+  border: 1px solid gray;
+  display: flex;
+}
+
+.container3 .item {
+  width: 33.3%;
+  background-color: green;
+  margin: 5px;
+}
